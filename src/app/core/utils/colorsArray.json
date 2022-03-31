@@ -1,0 +1,39 @@
+{
+    "colorArray": [{
+        "first": "FF1212",
+        "second": "FF6D6D"
+      },
+      {
+        "first": "FF8412",
+        "second": "FFC56D"
+      },
+      {
+        "first": "B257F9",
+        "second": "D38BFF"
+      },
+      {
+        "first": "55BBE3",
+        "second": "9EC1CF"
+      },
+      {
+        "first": "BCFF4F",
+        "second": "D8FAA1"
+      },
+      {
+        "first": "E954E0",
+        "second": "EB98E6"
+      },
+      {
+        "first": "FF9A55",
+        "second": "FFDAC1"
+      },
+      {
+        "first": "66FDC7",
+        "second": "B5EAD7"
+      },
+      {
+        "first": "6A88FD",
+        "second": "C7CEEA"
+      }
+    ]
+}
