@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Input, OnDestroy, OnInit, Output, SimpleChanges } from '@angular/core';
 import colorsArray from "../app/core/utils/colorsArray.json";
+import { data } from './data-model';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,10 @@ export class AppComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
+    this.timelineData = data.content;
+
+    console.log(this.timelineData);
+    
   }
 
   ngOnChanges(changes: SimpleChanges): void {
