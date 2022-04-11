@@ -20,12 +20,18 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.timelineData = data.content;
-
+    this.init();
     console.log(this.timelineData);
     
   }
 
   ngOnChanges(changes: SimpleChanges): void {
+    console.log("halo");
+    
+    this.init();
+  }
+
+  init = () => {
     const caseDetails = this.timelineData.caseDetailsSubList
     this.resetSVG()
     this.timeout = setTimeout(() => {

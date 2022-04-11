@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+#svg-text {
+    font-size: 2px;
+}
+
+#svg-date {
+    font-weight: 700;
+}
+
+// Snake View Timeline
+.snakeview-text {
+    height: 5px;
+    margin-top: 1.5px;
+    margin-left: 0.2px;
+    margin-bottom: 5px;
+    font-size: 1.3px;
+    line-height: 0.3vmin !important;
+    padding: .5px;
+  }
